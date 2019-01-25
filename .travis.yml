@@ -4,3 +4,10 @@ node_js:
 cache:
   directories:
     - "node_modules"
+
+notifications:
+  email:
+    recipients:
+      - m.anangnur@gmail.com
+      on_success: change
+      on_failure: always
